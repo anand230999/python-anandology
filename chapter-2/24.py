@@ -1,0 +1,3 @@
+def zipp(a,b):
+    return [(a[x],b[y])for x in range(len(a)) for y in range (len(b))if x== y]
+print zipp([1, 2, 3], ["a", "b", "c"])
